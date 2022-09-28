@@ -77,13 +77,7 @@
 	margin-bottom: 8px;
 }
 .form-style input[type="text"],
-.form-style input[type="date"],
-.form-style input[type="datetime"],
 .form-style input[type="email"],
-.form-style input[type="number"],
-.form-style input[type="search"],
-.form-style input[type="time"],
-.form-style input[type="url"],
 .form-style textarea,
 .form-style select {
 	font-family: Georgia, "Times New Roman", Times, serif;
@@ -106,13 +100,7 @@
     z-index: 2;
 }
 .form-style input[type="text"]:focus,
-.form-style input[type="date"]:focus,
-.form-style input[type="datetime"]:focus,
 .form-style input[type="email"]:focus,
-.form-style input[type="number"]:focus,
-.form-style input[type="search"]:focus,
-.form-style input[type="time"]:focus,
-.form-style input[type="url"]:focus,
 .form-style textarea:focus,
 .form-style select:focus{
 	background: #d2d9dd;
@@ -170,4 +158,50 @@
 .form-text h4{
     color: #256D85;
     font-size: 36px;
+}
+
+@media only screen and (max-width: 800px) {
+    .form-style{
+        max-width: 80%;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        padding-top: 100px;
+        gap: 50px
+    }
+    .form-text{
+        gap: 30px;
+        max-width: 90vw;
+    }
+    .form-text h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .form-text h4{
+        color: #256D85;
+        font-size: 22px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .nav-link{
+        font-size: 18px;
+    }
+    #header-img{
+        padding: 10px;
+    }
+    .items{
+        padding: 0 10px;
+    }
+    .form-style input[type="submit"]{
+        padding: 10px 39px 10px 39px;
+        margin-bottom: 10px;
+    }
+    .form-style input[type="text"],
+    .form-style input[type="email"],
+    .form-style textarea,
+    .form-style select {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
 }
