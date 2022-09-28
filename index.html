@@ -28,13 +28,48 @@
         </nav>
     </header>
     <section id="contact">
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <!-- <form id="form" action="https://www.freecodecamp.com/email-submit">
             <label for="email">Enter Email</label>
             <input id="email" type="email" placeholder="
             Email" name="email">
             <input id="submit" type="submit" value="Submit">
 
-        </form>
+        </form> -->
+        <div class="form-style">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <fieldset>
+                    <legend><span class="number">1</span> Candidate Info</legend>
+                    <input type="text" name="name" placeholder="Your Name *">
+                    <input id="email" type="email" name="email" placeholder="Your Email *">
+                    <textarea name="field3" placeholder="About yourself"></textarea>
+                    <label for="job">Interests:</label>
+                    <select id="job" name="field4">
+                      <optgroup label="Indoors">
+                        <option value="fishkeeping">Fishkeeping</option>
+                        <option value="reading">Reading</option>
+                        <option value="boxing">Boxing</option>
+                        <option value="debate">Debate</option>
+                        <option value="gaming">Gaming</option>
+                        <option value="snooker">Snooker</option>
+                        <option value="other_indoor">Other</option>
+                      </optgroup>
+                      <optgroup label="Outdoors">
+                        <option value="football">Football</option>
+                        <option value="swimming">Swimming</option>
+                        <option value="fishing">Fishing</option>
+                        <option value="climbing">Climbing</option>
+                        <option value="cycling">Cycling</option>
+                        <option value="other_outdoor">Other</option>
+                      </optgroup>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend><span class="number">2</span> Additional Info</legend>
+                    <textarea name="field3" placeholder="About Your School"></textarea>
+                </fieldset>
+                    <input id="submit" type="submit" value="Apply" />
+            </form>
+        </div>
     </section>
     <section id="features"></section>
     <section id="price"></section>
