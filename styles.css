@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 100%;
+}
+#nav-bar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #cc0000;
+    color: white;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+}
+.item{
+    list-style: none;
+    padding: 15px;
+}
+#header-img{
+    width: 100px;
+    height: 100px;;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+}
