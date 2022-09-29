@@ -236,6 +236,9 @@
     .form-style select {
         margin-bottom: 20px;
     }
+    .card-wrapper{
+        flex-direction: column;
+    }
 }
 @media only screen and (max-width: 500px) {
     .nav-link{
@@ -257,5 +260,8 @@
     .form-style select {
         font-size: 12px;
         margin-bottom: 15px;
+    }
+    .features-header{
+        font-size: 40px;
     }
 }
