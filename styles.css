@@ -163,8 +163,10 @@
 }
 
 /*features*/
+.features{
+    margin: 100px 50px 0 50px;
+}
 .features-header{
-    margin-top: 100px;
     text-align: center;
     color: #727272;
     font-size: 60px;
@@ -178,6 +180,7 @@
 .card{
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 @media only screen and (max-width: 1000px) {
     .form-text h2{
