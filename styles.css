@@ -146,6 +146,12 @@
 {
 	background: #109177;
 }
+#form{
+    background: #f4f7f8;
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 .form-text{
     display: flex;
     flex-direction: column;
