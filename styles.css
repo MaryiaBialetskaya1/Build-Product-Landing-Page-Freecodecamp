@@ -199,6 +199,14 @@
     text-align: center;
     font-weight: 400;
 }
+/*section-video*/
+.section-video{
+    background-image: url(./video-section-bg.jpg);
+    position: relative;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 @media only screen and (max-width: 1000px) {
     .form-text h2{
