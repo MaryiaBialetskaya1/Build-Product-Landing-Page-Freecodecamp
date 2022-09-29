@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -160,6 +162,55 @@
     font-size: 36px;
 }
 
+/*features*/
+.features{
+    margin: 100px 50px 100px 50px;
+}
+.features-header{
+    text-align: center;
+    color: #727272;
+    font-size: 60px;
+    font-family: 'Mulish', sans-serif;
+}
+.card-wrapper{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #727272;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+}
+.card-img{
+    width: 200px;
+    height: 200px;
+}
+.card-header{
+    font-weight: 700;
+}
+.features-paragraph{
+    text-align: center;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1000px) {
+    .form-text h2{
+        font-size: 32px;
+    }
+    .form-text h4{
+        font-size: 22px;
+    }
+    .form-style{
+        gap: 10px
+    }
+}
 @media only screen and (max-width: 800px) {
     .form-style{
         max-width: 80%;
@@ -177,9 +228,16 @@
         text-align: center;
     }
     .form-text h4{
-        color: #256D85;
-        font-size: 22px;
         text-align: center;
+    }
+    .form-style input[type="text"],
+    .form-style input[type="email"],
+    .form-style textarea,
+    .form-style select {
+        margin-bottom: 20px;
+    }
+    .card-wrapper{
+        flex-direction: column;
     }
 }
 @media only screen and (max-width: 500px) {
@@ -203,5 +261,7 @@
         font-size: 12px;
         margin-bottom: 15px;
     }
-
+    .features-header{
+        font-size: 40px;
+    }
 }
