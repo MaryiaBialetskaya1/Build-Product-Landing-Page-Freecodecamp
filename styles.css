@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -159,6 +161,15 @@
     color: #256D85;
     font-size: 36px;
 }
+
+/*features*/
+.features-header{
+    margin-top: 100px;
+    text-align: center;
+    color: #727272;
+    font-size: 60px;
+    font-family: 'Mulish', sans-serif;
+}
 @media only screen and (max-width: 1000px) {
     .form-text h2{
         font-size: 32px;
@@ -217,5 +228,4 @@
         font-size: 12px;
         margin-bottom: 15px;
     }
-
 }
