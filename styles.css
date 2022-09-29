@@ -171,8 +171,13 @@
     font-family: 'Mulish', sans-serif;
 }
 .card-wrapper{
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
+}
+.card{
+    display: flex;
+    flex-direction: column;
 }
 @media only screen and (max-width: 1000px) {
     .form-text h2{
