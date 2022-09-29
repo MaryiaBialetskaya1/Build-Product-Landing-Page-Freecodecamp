@@ -210,12 +210,17 @@
 .about-wrapper{
     display: flex;
     flex-direction: row-reverse;
-    gap: 50px;
+    gap: 80px;
     padding-top: 150px;
     padding-bottom: 150px;
-    margin: 0 100px;
+    margin: 0 200px;
     color: #727272;
     font-family: 'Mulish', sans-serif;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 .video-text{
     font-weight: 700;
