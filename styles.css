@@ -164,7 +164,7 @@
 
 /*features*/
 .features{
-    margin: 100px 50px 0 50px;
+    margin: 100px 50px 100px 50px;
 }
 .features-header{
     text-align: center;
@@ -176,11 +176,17 @@
     margin-top: 100px;
     display: flex;
     flex-direction: row;
+    gap: 30px;
 }
 .card{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
+}
+.features-paragraph{
+    text-align: center;
 }
 @media only screen and (max-width: 1000px) {
     .form-text h2{
