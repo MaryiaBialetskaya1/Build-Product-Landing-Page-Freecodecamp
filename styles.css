@@ -188,6 +188,10 @@
     font-family: 'Mulish', sans-serif;
     font-size: 18px;
 }
+.card-img{
+    width: 200px;
+    height: 200px;
+}
 .card-header{
     font-weight: 700;
 }
